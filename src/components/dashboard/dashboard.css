@@ -1,0 +1,29 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+div,
+section {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+.admin-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.admin-component-wrapper {
+  display: block;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

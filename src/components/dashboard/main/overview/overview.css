@@ -1,0 +1,140 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* 字体颜色要分开控制，在这里改的话特殊字体颜色的变化无法覆盖这个颜色*/
+  /* color: #7e909b; */
+}
+
+h2 {
+  color: #f7941d;
+  margin: 0.1em 0 0.5em 0.1em;
+}
+
+h5 {
+  color: #f7941d;
+  margin: 0.1em 0 0.5em 0.1em;
+}
+
+section.overview {
+  padding: 1em;
+  background: #f7fafc;
+  margin-top: 60px;
+}
+
+#overview-setting-button {
+  margin: 1% 1% 1% 4.5%;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #cccccc;
+}
+
+.react-grid-layout {
+  position: relative;
+}
+
+.cssTransforms {
+  width: 50% !important;
+  left: 10px;
+}
+
+section.card {
+  border-radius: 10px;
+  width: 100% !important;
+  height: 300px;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #cccccc;
+  /* Below：为了解决不知道从哪来的灰色border */
+  border:none 
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > * {
+  width: 50%;
+}
+
+div.text-container {
+  text-align: center;
+  margin: 1em;
+}
+
+span.text-large {
+  font-size: 3em;
+  color: #5D686F;
+}
+
+span.text-medium {
+  font-size: 1em;
+  color: #5D686F;
+}
+
+div.table-container {
+  overflow: auto;
+  max-height: 230px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.header-container {
+  display: flex;
+  max-height: 20em
+}
+
+.header-container > * {
+  width: auto;
+}
+
+.view-more{
+  background-color: white;
+  color: #f7941d;
+  border: 2px solid #f7941d; /* Green */
+  border-radius: 16px;
+  margin-left: auto;
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+.header-text{
+  font-weight: 700;
+}
+
+/* table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+thead tr {
+  background-color: #ffffff !important;
+}
+
+thead th {
+  color: #f7941d;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody {
+  overflow-y: auto;
+  overflow-x: hidden;
+} */

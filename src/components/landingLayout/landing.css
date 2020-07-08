@@ -1,0 +1,6 @@
+body,
+html {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
